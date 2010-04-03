@@ -1,6 +1,6 @@
 class CreateGnotes < ActiveRecord::Migration
   def self.up
-    create_table :gnotes,:options=>"charset=utf8" do |t|
+    create_table :gnotes do |t|
       t.string :contact
       t.text :message
 

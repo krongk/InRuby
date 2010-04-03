@@ -9,37 +9,8 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100327051431) do
+ActiveRecord::Schema.define(:version => 0) do
 
-  create_table "gnotes", :force => true do |t|
-    t.string   "contact"
-    t.text     "message"
-    t.string   "category"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "posts", :force => true do |t|
-    t.string   "category"
-    t.string   "title"
-    t.text     "document"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "users", :force => true do |t|
-    t.string   "login"
-    t.string   "email"
-    t.string   "crypted_password",          :limit => 40
-    t.string   "salt",                      :limit => 40
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "remember_token"
-    t.datetime "remember_token_expires_at"
-    t.string   "phone"
-    t.text     "message"
-    t.text     "bg_message"
-    t.string   "language"
-  end
+ 
 
 end
