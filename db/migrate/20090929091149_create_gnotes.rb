@@ -3,7 +3,7 @@ class CreateGnotes < ActiveRecord::Migration
     create_table :gnotes,:options=>"charset=utf8" do |t|
       t.string :contact
       t.text :message
-      t.string :category
+
       t.timestamps
     end
   end
