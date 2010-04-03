@@ -1,0 +1,50 @@
+<DIV id="content">
+  <DIV id="banner">
+    <h2 id="stitle"><%= t "banner.title" %></h2>
+    <H3 id="download-now"><A href="/signup">马上注册成为我们的客户</A><SPAN>,免费哦!</SPAN></H3>
+
+    <UL id="slogan">
+      <%= t "banner.slogan" %>
+    </UL>
+  </DIV>
+<%=flash[:notice]%>
+  <DIV id="main-content">
+    <DIV id="features">
+      <H3><%= t "index.title1"%></H3>
+      <DIV id="features-list">
+        <DL id="features-01">
+          <DT><%= t "index.dt1"%> </DT>
+          <DD><%= t "index.dd1"%> </DD>
+        </DL>
+        <DL id="features-02">
+          <DT><%= t "index.dt2"%></DT>
+          <DD><%= t "index.dd2"%></DD>
+        </DL>
+        <DL id="features-03">
+          <DT><%= t "index.dt3"%></DT>
+          <DD><%= t "index.dd3"%></DD>
+        </DL>
+        <DL id="features-04">
+          <DT><%= t "index.dt4"%></DT>
+          <DD><%= t "index.dd4"%></DD>
+        </DL>
+        <DL id="features-05">
+          <DT><%= t "index.dt5"%></DT>
+          <DD><%= t "index.dd5"%></DD>
+        </DL>
+        <DL id="features-06">
+          <DT><%= t "index.dt6"%></DT>
+          <DD><%= t "index.dd6"%></DD>
+        </DL>
+        <DL id="features-07">
+          <DT><%= t "index.dt7"%></DT>
+          <DD><%= t "index.dd7"%></DD>
+        </DL>
+        <DL id="features-08">
+          <DT><%= t "index.dt8"%></DT>
+          <DD><%= t "index.dd8"%></DD>
+        </DL>
+      </DIV>
+    </DIV>
+<%= render :partial=>"layouts/advantage" %>
+</DIV>

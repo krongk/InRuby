@@ -1,0 +1,10 @@
+<div class="admin_menu">搜索内容
+<%=render :partial=>'layouts/search' -%>
+</div>
+<div class="g_title">搜索结果</div>
+<div class="g_menu"><%= link_to '返回文章列表',"/gnotes?page=#{session[:page]}" %> | <%= link_to '首页','/' %></div>
+<% if @gnotes %>
+<div id="gnotes"><ul><% @gnotes.each do |gnote| -%><li><div class="g_title" style="font-size: 14px;"><%=h gnote.id %>. <%=link_to gnote.contact,gnote,:class=>'g_title' %></div></li><% end  %></ul></div>
+<% else  %>
+没有搜索到任何内容
+<% end %>

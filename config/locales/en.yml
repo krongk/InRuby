@@ -1,0 +1,118 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  menu:
+    index: "Home"
+    service: "Service"
+    about: "About"
+    signup: "signup"
+    login: "login"
+    blog: "Blog"
+    help: "User Guide"
+    sitemap: "Sitemap"
+    contact: "Contact"
+  banner:
+    title: "We are developing web applications"
+    title2: "We’re riding Ruby on Rails in China!"
+    slogan: "<LI>Web Design</LI><LI>Web Development</LI><LI>Ruby on Rails</LI><LI>Ruby Trainning</LI>"
+  index:
+    title1: "The New Web Application Development<SPAN> using the most simple way to make the network become the most simple pleasures. </ SPAN>
+"
+    dt1: "Online Order"
+    dd1: "Faster response to your request, regardless of distance, regardless of nationality, with the shortest time to reach a cooperation agreement."
+    dt2: "Code in the clouds"
+    dd2: "No need to buy a server,<a href='http://github.com'>Github</a> can host all of your source code, you only need to register an account."
+    dt3: "Data in the clouds"
+    dd3: "Cloud storage is a safe, reliable and large data volume of data stored. Such as <a href='http://aws.amazon.com/s3/' target='_blank'>Amazon S3</a> is a good choice.unlimited scalability"
+    dt4: "Services in the cloud"
+    dd4: "Re virus had been attacked, the server crashed ... these are no longer troubled by the enterprises themselves, because <a href='http://www.heroku.com' target='_blank'>Heroku</a> escort for your services."
+    dt5: "Rich Internet services"
+    dd5: "Not only provide more Internet stations, static pages, but also provides Web software application development."
+    dt6: "Agile dev environment"
+    dd6: "<a href='http://www.rubyonrails.org' target='_blank'>Ruby on Rails</a>is the most popular Web development framework,The simple and rapid development experience."
+    dt7: "Open source project"
+    dd7: "Involved in the development of open source projects,Some <a href='http://www.rubyonrails.org' target='_blank'>ruby gems</a> and<a href='http://www.rubyonrails.org' target='_blank'>Rails plugins</a>."
+    dt8: "Follow tech trends"
+    dd8: "Follow the best developers to learn the most advanced development concepts, it is our pursuit."
+    title2: "Our Advantage<SPAN> we constantly explore new technologies and entrepreneurial spirit,the next project is the newest one. </ SPAN>"
+    adt1: "Concern the latest development platform: <em>Cloud Computing</em>"
+    add1: "<a href='http://en.wikipedia.org/wiki/Cloud_computing' target='_blank'>Cloud computing </a>is Internet-based computing, whereby shared resources, software and information are provided to computers and other devices on-demand, like a public utility."
+    adt2: "Follow the development of Web technology: <em>Ruby</em>"
+    add2: "Ruby, a kind of quick and easy object-oriented programming to create from the scripting language, Ruby on Rails is a Web application framework, built on the Ruby language.Tt's make Web development life easier."
+  service: 
+    t1: "Agile Web Development with Ruby on Rails"
+    s1: "<p>Inruby has been building software and web applicaitons useing Roby On Rails for some years. We are proud to say that we were one of the early adopters in China. We firmly believe that Ruby and the Rails framework will continue to drive the web's latest applications.</p>
+        <p><b>Here's why we love Ruby on Rails:</b></p>
+        <ol class='service_list'>
+        <li>RoR shortens the development timeline of almost any project</li>
+        <li>Rapid release cycles yeilds more frequent releases</li>
+        <li>Agile development allowing teams to operate far more efficiently</li>
+        <li>An active development community writing open source code and communicating regularly</li>
+        <li>Rapid project ramp up</li>
+        <li>Working in a platform that is built to develop today's hihg-demand features and functionality.</li></ol>
+        <p>Just some of the websites and web-based applications that our team has designed and developed using Ruby on Rails:</p>"
+    t2: "Ruby on Rails Trainning"
+    s2: "It is a well known fact that Ruby on Rails is gaining quite a bit of popularity among developers and deployers of Web applications and for good reasons.
+        Rails is considered a well thought out Web application framework based on several design principles such as Don't Repeat Yourself (DRY) and Convention Over Configuration,
+        which enable an agile yet practical development and deployment environment for Web applications.
+        Rails also leverages the power of the Ruby language,
+        which provides simple and consistent syntax with powerful language features such as blocks, closures, and meta-programming.
+        </p><p><b>What Will I Learn?</b></p><ol class='service_list'><li>
+        Write Ruby programs and Rails applications with the confidence and efficiency that comes from deep knowledge of how things really work
+        </li><li>Learn what's new in Ruby 1.9, and how to make the most of it</li><li>
+        Use your new-found skills to contribute to open source and commercial projects in an impactful way
+        </li><li>Take your Ruby skills to the next level by focusing exclusively on advanced Ruby techniques for three days with Dave Thomas and Chad Fowler
+        </li></ol>"
+  about:
+    t1: "About Us"
+    s1: "<p><strong>Inruby</strong>&nbsp;is a web development company currently based in Chengdu, China. We offer all kinds of services including:</p>
+            <ul>
+              <li>web development (mostly with Ruby on Rails)</li>
+              <li>web design</li>
+              <li>converting existing designs (.psd, .ai ect&hellip;) into clean&nbsp;XHTML/CSS&nbsp;markup<br />
+                google,facebook,taobao API development</li>
+              <li>SEO</li>
+              <li>software development</li>
+              <li>web/usability consulting</li>
+              <li>training</li>
+              <li>and more&hellip;<br />
+              </li>
+            </ul>"
+    t2: "Team"
+    s2: "Inruby's web development team is made up of dedicated experts who know web technologies as few others do. The breadth of knowledge that they lend to every engagement serves to enhance the client's vision and produce outstanding results. Starting with a true passion for technology and their work, our development staff is carefully chosen, well trained, and extensively capable."
+    t3: "Agile Development"
+    s3: "At Inruby, we embody agile development methodologies. Characterized by an interactive approach, rapid development cycles, and requirements/solutions based prioritization, agile teams have been proven to produce superior results in less time. We're quite simply addicted to the agile model. It's a win for our clients and a win for us.<br/>
+         the agile model allows us to rapidly release updates to our client's applications and our own internal software as well. Our team can be distributed globally, if needed, but most of the time, they're all here in our office together. Additionally, all of our development and production environments are secure. Your data and your code are safe from hackers and backed up regularly, just in case of equipment failure."
+    t4: "Expertise"
+    s4: " Consider us your business partner, the one you trust to develop and implement the best solutions to meet your needs. With insightful analysis and strategic planning, we work to give you the competitive advantage you need. Our clients come to rely on our counsel when making business development, marketing, and technology decisions. We cherish this level of trust. We know that our clients' success is our success.
+          <br/>As operational tasks become increasingly automated, if not completely web-based, the technology powering them becomes mission critical. At Inruby Technology Partners, we assess your needs for today and plan for those of tomorrow. In doing so, we empower your business with technology&nbsp;that will&nbsp;generate and refine operational efficiencies, promote your products and services, and drive revenue and profitability."
+    t5: "Cooperative Enterprises"
+    t6: "Contact us"
+    us: "Reader,<br/><br/>
+        <p>Consider this my cover letter. I have been working in the IT business for 6 years now.
+        I graduated from famous universities in China,Professional is the Information and Computing Science.
+        </p><p>I’ve also worked nearly every level of the development cycle. I’ve managed the technical product support teams, tested software, designed features, and developed web applications in Ruby on Rails. I’ve discussed and drawn up technical specifications and understand how to design and provide secure, reliable, and user friendly products.
+        </p><p>I’m keenly interested in helping your business succeed. For that reason, I study new development techniques, current technologies, and how they fit into online marketing. Not only do I find this extremely useful, but highly enjoyable, which provides a large part of my motivations for wanting to see you succeed. I want to help you because it makes me feel good. It gives me that sense of accomplishment that keeps me going.
+        </p><p>Your consideration is greatly appreciated. Please feel free to look over my resume and ask me any questions you may have.
+        </p><p>Thank you,<br/></p><p>Note: I am currently only interested in freelance/moonlighting work where I can telecommute (work from home) or positions in Chengdu,China.</p>"
+    addr: "<h2>Cheng Du Office</h2><p>SiChuan ChengDu Kehua nan St., The beautiful Garth 3-1-1128#</p><p>Chengdu, CHN 610000</p>"
+  form:
+    sign_up: "sign up"
+    login: "login"
+    submit: "submit"
+    cancel: "cancel"
+    reset: "reset"
+    
+  activerecord:
+    models:
+      user: "user"
+      attributes:
+        user: 
+          login: "login"
+          email: "email"
+          password: "password"
+          password_confirmation: "confirm password"
+          phone: "phone"
+          message: "message"
+          language: "language"

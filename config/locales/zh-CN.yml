@@ -1,0 +1,233 @@
+# Chinese (China) translations for Ruby on Rails 
+# by tsechingho (http://github.com/tsechingho)
+
+"zh-CN":
+  menu:
+    index: "首页"
+    service: "服务"
+    about: "关于我们"
+    signup: "客户注册"
+    login: "登录"
+    blog: "博客"
+    help: "使用帮助"
+    sitemap: "网站地图"
+    contact: "联系客户"
+  banner:
+    title: "中小企业网站离云计算还有多远？"
+    title2: "为你提供专业的网站建设服务！"
+    slogan: "<LI>项目策划，网站开发</LI><LI>Web及桌面程序设计</LI><LI>网络运营，维护和推广</LI><LI>互联网工程师技术培训</LI>"
+  index:
+    title1: "新Web应用程序开发 <SPAN>产品团队为您持续优化企业网络应用的用户体验，用最简单的方式，让网络成为最简单的快乐。</SPAN>"
+    dt1: "在线订单"
+    dd1: "使用QQ/Email等简单快捷的沟通方式，更快的响应您的请求，无论远近,无论国籍,用最短的时间达成合作协议。"
+    dt2: "代码在云端"
+    dd2: "不需要购买服务器,也不需要托管，<a href='http://github.com' target='_blank'>Github</a>可以为你托管所有的源代码,你只需要注册一个账户。"
+    dt3: "数据在云端"
+    dd3: "类似于像<a href='http://aws.amazon.com/s3/' target='_blank'>Amazon S3</a>和<a href='http://www.ct10000.com' target='_blank'>中国电信</a>等大型服务商，为你提供了安全可靠的云存储，具有无限的扩展能力。"
+    dt4: "服务在云端"
+    dd4: "重病毒了，被攻击了，服务器瘫痪了...这些都不再困扰企业自身，因为<a href='http://www.heroku.com' target='_blank'>Heroku</a>为你的服务保驾护航。"
+    dt5: "丰富的互联网服务"
+    dd5: "不仅提供更多的互联网站、静态页面，而且提供Web软件应用开发，为您提供更专业的互联网服务。"
+    dt6: "敏捷的开发环境"
+    dd6: "<a href='http://www.rubyonrails.org' target='_blank'>Ruby on Rails</a>是目前最流行的Web开发框架之一，为你呈现简单快速的开发和轻松愉悦的编程体验。"
+    dt7: "丰富的开源项目案例"
+    dd7: "借鉴许多<a href='http://ruby-lang.org/' target='_blank'>Ruby</a>相关的<a href='http://rubygems.org/' target='_blank'>Gems</a>,还有许多开源项目，你可以在这里找到：<a href='http://agilewebdevelopment.com/' target='_blank'>AgileWebDevelopment</a>"
+    dt8: "追随最新的技术"
+    dd8: "追随最优秀的开发者，学习最先进的开发理念，这是我们的追求，你可以在本站查看最新技术博客。"
+    title2: "我们的优势 <SPAN>互联网总是以先进的技术作为最大的推动力，我们以不断的进取精神探索新技术，让下一个项目用上最先进的技术。</SPAN>"
+    adt1: "关注最新的开发服务平台：<em>云计算</em>"
+    add1: "<a href='http://baike.baidu.com/view/1316082.htm' target='_blank'><strong>云计算</strong></a>，主要是指服务的交付和使用模式，指通过网络以按需、易扩展的方式获得所需的服务。提供资源的网络被称为'云'。'云'中的资源在使用者看来是可以无限扩展的，并且可以随时获取，按需使用，随时扩展，按使用付费。通过云计算，我们就像使用日常水电一样使用网络资源，网络将进入<a target='_blank' href='http://baike.baidu.com/view/1988985.htm'>云计算时代</a>。"
+    adt2: "追随Web新技术的发展：<EM>Ruby</EM>"
+    add2: "<a href='http://baike.baidu.com/view/45135.htm' target='_blank'><strong>Ruby</strong></a>，一种为简单快捷<a target='_blank' href='/view/10110.htm'>面向对象编程</a>而创的脚本语言，  <a href='http://baike.baidu.com/view/27065.htm' target='_blank'>Ruby on Rails</a>是一个 Web 应用程序框架,是一个相对较新的 Web 应用程序框架，构建在 Ruby 语言之上。它被宣传为现有企业框架的一个替代，而它的目标，简而言之，<strong>就是让生活，至少是 Web 开发方面的生活，变得更轻松</strong>。"
+  service:
+    t1: "网站建设<SPAN>产品团队为您持续优化企业网络应用的一起体验，用最简单的方式，让网络成为最简单的快乐。</SPAN>"
+    s1: "<p>我们采用Ruby on Rails框架进行网站开发。Rails是近几年以来开发Web应用程序最好的选择，我们是Rails早期的采用者之一。我们坚信，Ruby和Rails框架将继续推动网络的最新应用。</p>
+      <p>这是为什么我们喜欢的Ruby on Rails的原因：</p>
+      <ol>
+        <li>回报率缩短了几乎所有项目的开发时间表。</li>
+        <li>快速发布周期收益：更频繁地发布</li>
+        <li>敏捷开发使团队运作更有效率</li>
+        <li>一个活跃的开发社区的开源代码和定期沟通</li>
+        <li>项目坡道快速增长</li>
+        <li>工作是建立在一个发展到今天的hihg需求的特性和功能的平台。</li>
+      </ol>
+      <p>波士顿逻辑的软件应用程序都使用Ruby on Rails构建。这包括一个系统，我们的房地产网站平台及其所有组件，LogicMaps IDX的财产搜索，LogicRentals，LogicLeads，LogicCMS，等等。</p>
+      <p>当我们的客户来定制我们的应用，他们享有的一块心灵的应用套件附带知道我们的团队已经建立并维护一个积极的网络为基础的。</p>
+      <p>刚才的网站和网络为基础的，我们的团队已经设计和开发使用Ruby on Rails的一些应用：</p>"
+    t2: "RubyonRails互联网应用开发培训<SPAN>产品团队为您持续优化企业网络应用的一起体验，用最简单的方式，让网络成为最简单的快乐。</SPAN>"
+    s2: "<p><b>课程体系简介</b></p>
+      <p>本课程体系主要介绍Ruby编程和Ruby on Rails网站开发。通过剖析10个以上的全真项目案例，由浅入深，循序渐进，即学即会。</p>
+      <p><b>培训对象</b></p>
+      <p>有意从事互联网开发的人员,有一定的英语阅读能力。<br/>
+      培训形式多样，可以参加培训班，或者远程教学，提供一对一全程指导。</p>
+      <p><b>培训目标</b></p>
+      <p>培训普通学员进入Ruby编程领域，通过有针对性的案例讲解和项目驱动积累一些小型项目经验，
+      帮助学员获得高级编程技能，程序设计，框架及企业安全等相关中大型企业所需要的中高级技能。</p>"
+  about:
+    t1: "关于我们"
+    s1: " <p><strong>红宝石软件</strong> 是一个专业从事网站建设及Web应用程序开发的公司，开发团队成员分布在中国成都及美国硅谷。我们提供包括以下方面的服务：</p>
+            <p>网站开发（主要基于Ruby on Rails）</p>
+            <p>网站策划</p>
+            <p>google,facebook及淘宝网应用API开发</p>
+            <p>特殊软件定制及网站改版</p>
+            <p>网络营销及推广</p>
+            <p>教育培训</p>
+            <p>等等...</p>"
+    t2: "开发团队"
+    s2: "红宝石软件的Web开发团队是由专门的网络技术专家组成，分别从事软件开发多年。具备广阔的知识，提供专业的服务，以提高客户的眼光和优异的产品。我们的工作充满激情和挑战，我们的开发人员是经过精心挑选，训练有素，有广泛的技能。"
+    t3: "开发模式"
+    s3: "我们不断地尝试敏捷开发方法。通过互动方式为特征，快速的开发周期，并不断响应需求/解决方案为基础的优先次序，敏捷团队已经证明可以通过更少的时间产生优异的业绩。我们很简单地沉迷于敏捷模型。这是一个胜利，我们以此赢得客户，也赢得我们。<br/>敏捷模型使我们能够迅速更新客户的应用和我们自己内部的软件。我们的团队分布在全球各地，以满足各个地区的资源共享。此外，我们的发展和生产环境都是安全的（依托google,amazon的大型服务商的云平台）。您的数据和代码定期备份，避免攻击或丢失。"
+    t4: "合作理念"
+    s4: "我们作为您的商业伙伴，为您制定和实施您认为最佳的解决方案，以满足您的需求。有见地的分析和战略规划，我们的工作给你你需要的竞争优势。我们的客户越来越信任于我们的商业开发、市场营销和技术决策。我们珍惜这种信任的程度。我们知道，我们客户的成功就是我们的成功。<br/><p>由于操作流程和工作任务越来越自动化，就算不是完全基于网络的业务，仍然以技术作为关键驱动。我们会根据你的需求，评估今天和明天以及后继期限的计划。这样做，我们才能快速开发，快速完善您的业务及运作效率，促进您的产品和服务，并推动收入和盈利能力。"
+    t5: "合作单位"
+    t6: "联系方式"
+    us: "我们在中国和美国都有联络，在中国的合作伙伴成都设有办事处，在美国的合作伙伴洛杉矶设有办事处。<br/>
+    注：我们会根据项目配备团队人员，以及是否是全职或是自由职业/兼职工作，我们同样可以远程办公（在家工作）或在中国成都以及美国洛杉矶城市工作。"
+    addr: "<h2>四川成都办公室</h2><p>科华南路，美丽南庭，#3-1128</p><p>四川，成都 610000</p>
+           <h2>Los Angeles Office</h2><p>800 S. Los Angeles St., Suite 121B</p><p>Los Angeles, CA 90014</p>"
+  form:
+    sign_up: "注册"
+    login: "登录"
+    submit: "提交"
+    cancel: "取消"
+    reset: "重置"
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      short: "%b%d日"
+      long: "%Y年%b%d日"
+    day_names: [星期日, 星期一, 星期二, 星期三, 星期四, 星期五, 星期六]
+    abbr_day_names: [日, 一, 二, 三, 四, 五, 六]
+    month_names: [~, 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
+    abbr_month_names: [~, 1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月]
+    order: [ :year, :month, :day ]
+  
+  time:
+    formats:
+      default: "%Y年%b%d日 %A %H:%M:%S %Z"
+      short: "%b%d日 %H:%M"
+      long: "%Y年%b%d日 %H:%M"
+    am: "上午"
+    pm: "下午"
+  
+  datetime:
+    distance_in_words:
+      half_a_minute: "半分钟"
+      less_than_x_seconds:
+        one: "不到一秒"
+        other: "不到 {{count}} 秒"
+      x_seconds:
+        one: "一秒"
+        other: "{{count}} 秒"
+      less_than_x_minutes:
+        one: "不到一分钟"
+        other: "不到 {{count}} 分钟"
+      x_minutes:
+        one: "一分钟"
+        other: "{{count}} 分钟"
+      about_x_hours:
+        one: "大约一小时"
+        other: "大约 {{count}} 小时"
+      x_days:
+        one: "一天"
+        other: "{{count}} 天"
+      about_x_months:
+        one: "大约一个月"
+        other: "大约 {{count}} 个月"
+      x_months:
+        one: "一个月"
+        other: "{{count}} 个月"
+      about_x_years:
+        one: "大约一年"
+        other: "大约 {{count}} 年"
+      over_x_years:
+        one: "一年多"
+        other: "{{count}} 年多"
+    prompts:
+      year:   "年"
+      month:  "月"
+      day:    "日"
+      hour:   "时"
+      minute: "分"
+      second: "秒"
+  
+  number:
+    format:
+      separator: "."
+      delimiter: ","
+      precision: 3
+    currency:
+      format:
+        format: "%u %n"
+        unit: "CN¥"
+        separator: "."
+        delimiter: ","
+        precision: 2
+    percentage:
+      format:
+        delimiter: ""
+    precision:
+      format:
+        delimiter: ""
+    human:
+      format:
+        delimiter: ""
+        precision: 1
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: "Byte"
+            other: "Bytes"
+          kb: "KB"
+          mb: "MB"
+          gb: "GB"
+          tb: "TB"
+  
+  support:
+    array:
+      words_connector: ", "
+      two_words_connector: " 和 "
+      last_word_connector: ", 和 "
+  
+  activerecord:
+    errors:
+      template:
+        header: 
+          one: "有 1 个错误发生导致「{{model}}」无法被保存。"
+          other: "有 {{count}} 个错误发生导致「{{model}}」无法被保存。"
+        body: "如下字段出现错误："
+      messages:
+        record_invalid: "校验失败: {{errors}}"
+        inclusion: "不包含于列表中"
+        exclusion: "是保留关键字"
+        invalid: "是无效的"
+        confirmation: "与确认值不匹配"
+        accepted: "必须是可被接受的"
+        empty: "不能留空"
+        blank: "不能为空字符"
+        too_long: "过长（最长为 {{count}} 个字符）"
+        too_short: "过短（最短为 {{count}} 个字符）"
+        wrong_length: "长度非法（必须为 {{count}} 个字符）"
+        taken: "已经被使用"
+        not_a_number: "不是数字"
+        greater_than: "必须大于 {{count}}"
+        greater_than_or_equal_to: "必须大于或等于 {{count}}"
+        equal_to: "必须等于 {{count}}"
+        less_than: "必须小于 {{count}}"
+        less_than_or_equal_to: "必须小于或等于 {{count}}"
+        odd: "必须为单数"
+        even: "必须为双数"
+        
+    models:
+      user: "用户"
+      attributes:
+        user:
+          login: "登录名"
+          email: "电子邮箱"
+          password: "密码"
+          password_confirmation: "密码确认"
+          phone: "联系电话"
+          message: "留言内容"
+          language: "语言"
+ 

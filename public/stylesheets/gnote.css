@@ -1,0 +1,121 @@
+@charset "utf-8";
+.edit-mode-border {
+	width: 22%;
+	margin: 10px 1%;
+	float: left;
+}
+#nav span {
+	font-size: 16px;
+	color: #777;
+	margin-left: 50px;
+	margin-top: -20px;
+	float: left;
+}
+
+.edit-mode-border-forcus {
+	width: 22%;
+	margin: 10px 1%;
+	float: left;
+	background:orange;	
+}
+.edit-bar {
+	margin: 0px;
+	padding: 2px;
+	background:#D2D2E6;	
+}
+
+.spacer {
+	width:100%;
+	height:120px;
+	background-image: url(../images/bar1.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.pin {
+	background-color: #D2D2E6;
+	height: 16px;
+}
+.a {
+	background-image: url(../images/ruby_ico1.png);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	background-position: left bottom;
+}
+
+.pagination {
+    padding: 3px;
+    margin: 3px;
+  }
+  .pagination a {
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    border: 1px solid #aaaadd;
+    text-decoration: none;
+    color: #000099;
+  }
+  .pagination a:hover, .pagination a:active {
+    border: 1px solid #000099;
+    color: #000;
+  }
+  .pagination span.current {
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    border: 1px solid #000099;
+    font-weight: bold;
+    background-color: #000099;
+    color: #FFF;
+  }
+  .pagination span.disabled {
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    border: 1px solid #eee;
+    color: #ddd;
+  }
+.admin_menu{
+   float:right;
+   margin: -10px 0 0 0;
+   background-color: #D2D2E6;
+   padding:4px;
+}
+#gnotes {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+#gnotes ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#gnotes ul li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+.g_title {
+	color: #900;
+	font-size: 1.5em;
+	font-weight: 600;
+	font-family: Arial, Helvetica, sans-serif,微软雅黑,宋体;
+    background-color:#eee;
+    padding:6px;
+    width:99%;
+}
+.g_message{
+    font-size: 1.25em;
+	font-family: Arial, Helvetica, sans-serif,微软雅黑,宋体;
+    line-height:23px;
+}
+.g_menu {
+	color: #666;
+	float: right;
+	margin-top: -12px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	margin-left: 4px;
+}
+#gnotes ul li .g_detail {
+	margin-left: 25px;
+	padding-top: 12px;
+}

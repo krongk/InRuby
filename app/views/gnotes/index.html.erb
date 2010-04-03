@@ -1,0 +1,7 @@
+<div class="admin_menu">
+<% if logged_in? -%><%=link_to '添加文章',new_gnote_path -%><% end -%>
+搜索内容
+<%=render :partial=>'layouts/search' -%>
+</div>
+<div id="gnotes"><ul><% @gnotes.each do |gnote| -%><li><div class="g_title"><%=h gnote.id %>. <%=link_to gnote.contact,gnote %></div><div class="g_menu"><%=h format_date(gnote.created_at) %><% if logged_in? %> <%= link_to '编辑', edit_gnote_path(gnote) %> | <%= link_to '删除', gnote, :confirm => 'Are you sure?', :method => :delete %><% end %> </div></li><% end -%></ul></div>
+<%= will_paginate @gnotes, :next_label=>'下一页',:previous_label=>'上一页' %>

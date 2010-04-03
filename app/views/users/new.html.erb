@@ -1,0 +1,26 @@
+<%= error_messages_for :user %>
+<% form_for :user, :url => users_path do |f| -%>
+<p><label for="login"><%= t 'activerecord.models.attributes.user.login' %> </label><br/>
+<%= f.text_field :login %></p>
+
+<p><label for="email"><%= t 'activerecord.models.attributes.user.email' %></label><br/>
+<%= f.text_field :email %></p>
+
+<p><label for="password"><%= t('activerecord.models.attributes.user.password') %></label><br/>
+<%= f.password_field :password %></p>
+
+<p><label for="password_confirmation"><%=t 'activerecord.models.attributes.user.password_confirmation'%></label><br/>
+<%= f.password_field :password_confirmation %></p>
+
+<fieldset>
+<p><label for="phone"><%=t 'activerecord.models.attributes.user.phone'%></label><br/>
+<%= f.text_field :phone %></p>
+
+<p><label for="message"><%=t 'activerecord.models.attributes.user.message'%></label><br/>
+<%= f.text_area :message ,:cols=>100,:rows=>20%></p>
+
+<p><label for="language"><%=t 'activerecord.models.attributes.user.language'%></label><br/>
+<%= f.select :language,[['English','en'],['简体中文','zh-CN']] %></p>
+</fieldset>
+<p><%= submit_tag t('form.sign_up') %></p>
+<% end -%>

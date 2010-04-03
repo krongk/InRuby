@@ -1,0 +1,60 @@
+<DIV id="content">
+  <DIV id="banner2">
+    <h2><font face="Arial, Helvetica, sans-serif"><%= t "banner.title2"%> </font></h2>
+  </DIV>
+
+  <DIV id="main-content">
+    <!--main start-->
+    <DIV id="features">
+      <DIV class="box left">
+        <H2 class="out"><a name="about"><%= t "about.t1" %> </a></H2>
+        <DIV class="in"><DIV class="contentinner innerpadding">
+            <%= t "about.s1" %>
+            <h3><a name="team"><%= t"about.t2"%> </a></h3>
+            <p><%= t"about.s2"%></p>
+            <h3><%= t "about.t3"%> </h3>
+            <p><%= t "about.s3"%></p>
+            <h3><%= t "about.t4"%> </h3>
+            <p><%= t "about.s4"%></p>
+            <P class="chooseby t_s14">&nbsp;</P>
+          </DIV>
+        </DIV>
+      </DIV>
+      <DIV class="right">
+        <DIV class="box mb10 tips">
+          <H2 class="out"><%= t "about.t6" %> </H2>
+        <DIV class="in">
+        <DIV class="contentinner">
+            <a href="mailto:kenrome@gmail.com"><img src="images/gmail.jpg" alt="Gmail" height="50" /> </a><a href="javascript:void(0);"><img src="images/QQ.jpg" width="50" height="50" alt="QQ:77632132" longdesc="422.html" /> </a><a href="http://cn.linkedin.com/in/kenrome"><img src="images/linkedin.jpeg" width="50" height="50" alt="Linkedin" /> </a><img src="images/twitter.png" width="50" height="50" alt="Twitter" /><a href="http://sighttp.qq.com/cgi-bin/check?sigkey=8acfca787b968cce1ad69f7e03ab41b1a918809108ad5d7de1a77a05db75945d"; target=_blank; onclick="var tempSrc='http://sighttp.qq.com/wpa.js?rantime='+Math.random()+'&sigkey=8acfca787b968cce1ad69f7e03ab41b1a918809108ad5d7de1a77a05db75945d';var oldscript=document.getElementById('testJs');var newscript=document.createElement('script');newscript.setAttribute('type','text/javascript'); newscript.setAttribute('id', 'testJs');newscript.setAttribute('src',tempSrc);if(oldscript == null){document.body.appendChild(newscript);}else{oldscript.parentNode.replaceChild(newscript, oldscript);}return false;"><img border="0" SRC='http://wpa.qq.com/pa?p=1:77632132:43' alt=""></a>
+          </DIV>
+        </DIV>
+        </DIV>
+        <DIV class="order-now"><a href="/signup"><img src="/stylesheets/bg_banner_btn_100208.png" border="0"/></a></DIV>
+        <br/>
+        <!--portfolio start-->
+        <DIV class="box FAQ">
+          <H2 class="out"><%= t "about.t5"%> </H2>
+           <DIV class="in">
+           <DIV class="contentinner" id="portfolio"><a href="http://www.ruby-lang.org"><img src="images/ruby.gif" alt="Ruby language" width="218" height="77"/></a><a href="http://agilewebdevelopment.com/"><img src="images/gems.jpg" alt="gems and plugins" width="83" height="83" /></a><a href="http://www.rubyonrails.org"><img src="images/rails.png"  alt="Ruby on Rails" /></a><a href="http://www.apple.com.cn/iphone/"><img src="images/iphone.png" alt="iphone" width="97" height="115" /></a><a href="http://mail.google.com"><img src="images/email.jpg" width="90" height="100" alt="Gmail" /></a><img src="images/ruby_book.jpg" width="93" height="93" alt="ruby book" /><img src="images/rails_book.jpg" width="96" height="96" alt="rails book" /><img src="images/3-search-engines.jpg" width="205" height="223" alt="baidu" /></DIV> </DIV>
+        </DIV>
+        <!--
+        <DIV class="box FAQ">
+          <H2 class="out">最新博客</H2>
+          <DIV class="in"><DIV class="contentinner">
+              <OL class="t_gray">
+                <LI>不清楚自己的手机型号?
+                  <BR>
+                  <A href="http://mobile.qq.com/m" class="a_blueu t_s14">通过图片选择我的</A></LI>
+                <LI>找不到自己的机型?<BR>
+                  <A href="http://mobile.qq.com/download2.jsp?brand=%C6%E4%CB%FC&model=" class="a_blueu t_s14">下载手机QQ通用版</A></LI>
+              </OL>
+            </DIV>
+          </DIV>
+        </DIV>
+      -->
+      </DIV>
+      <DIV class="clear"></DIV>
+    </DIV>
+    <!--main end-->
+<%= render :partial=>"layouts/advantage" %>
+  </DIV>

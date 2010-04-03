@@ -1,0 +1,14 @@
+<br/>
+<div class="g_title"><%=h @gnote.contact %></div>
+
+<div class="g_menu">
+<%=h format_date(@gnote.created_at) %>&nbsp;&nbsp;&nbsp;
+<%= link_to '返回文章列表',"/gnotes?page=#{session[:page]}" %> | <%= link_to '首页','/' %>
+<%  if logged_in?%>&nbsp;|&nbsp;<%= link_to '添加', new_gnote_path %> |
+<%= link_to '编辑', edit_gnote_path(@gnote) %> |
+<%= link_to '删除', @gnote, :confirm => 'Are you sure?', :method => :delete %>  <% end  %>
+</div>
+
+<div id="g_message" class="g_message">
+  <%= @gnote.message %>
+</div>

@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <META name="author" content="kenrome">
+  <META name="keywords" content="ruby,ruby on rails,web,web design,web development,web app,cloud computing">
+  <META name="description" content="网站建设,网站开发,云端网站服务专家">
+    <title>inruby: <%= controller.controller_name %>,<%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'globe','g','scaffold' %>
+    <%= stylesheet_link_tag 'gnote' if controller.controller_name =='gnotes'%>
+  <LINK rel="Shortcut Icon" href="images/favicon.ico">
+  <LINK rel="Bookmark" href="images/favicon.ico">
+</head>
+<body  id="page_index" class="mqq-page-01">
+<%= render :partial=>'layouts/top' %>
+
+<%= yield %>
+
+<%= render :partial=>'layouts/footer' %>
+</body>
+</html>
