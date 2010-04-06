@@ -19847,3 +19847,1102 @@ Rendered layouts/_search (0.0ms)
 Rendered layouts/_top (33.0ms)
 Rendered layouts/_footer (0.0ms)
 Completed in 85ms (View: 61, DB: 5) | 200 OK [http://127.0.0.1/gnotes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-06 21:32:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (3.0ms)
+Rendered layouts/_top (17.0ms)
+Rendered layouts/_footer (8.0ms)
+Completed in 2881ms (View: 295, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-06 21:33:09) [GET]
+  [4;36;1mGnote Load (138.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 291ms (View: 54, DB: 141) | 200 OK [http://localhost/gnotes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#show (for 127.0.0.1 at 2010-04-06 21:33:13) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mGnote Load (1.0ms)[0m   [0;1mSELECT * FROM `gnotes` WHERE (`gnotes`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering gnotes/show
+
+ActionView::TemplateError (undefined method `title' for #<Gnote:0x794823c>) on line #1 of app/views/gnotes/show.html.erb:
+1: <% title @gnote.title %>
+2: <br/>
+3: <div class="g_title"><%=h @gnote.contact %></div>
+4: 
+
+    app/views/gnotes/show.html.erb:1
+    app/controllers/gnotes_controller.rb:24:in `show'
+    C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (81.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#show (for 127.0.0.1 at 2010-04-06 21:33:57) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mGnote Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mGnote Load (0.0ms)[0m   [0;1mSELECT * FROM `gnotes` WHERE (`gnotes`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering gnotes/show
+Rendered layouts/_top (21.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 54ms (View: 35, DB: 2) | 200 OK [http://localhost/gnotes/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#images to ico (for 127.0.0.1 at 2010-04-06 21:34:11) [GET]
+  Parameters: {"id"=>"favicon"}
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 4ms (View: 2, DB: 0) | 401 Unauthorized [http://localhost/gnotes/images/favicon.ico]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-06 21:35:06) [GET]
+  [4;35;1mGnote Load (1.0ms)[0m   [0mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;36;1mGnote Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (19.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 57ms (View: 36, DB: 6) | 200 OK [http://localhost/gnotes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#show (for 127.0.0.1 at 2010-04-06 21:35:10) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mGnote Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mGnote Load (0.0ms)[0m   [0mSELECT * FROM `gnotes` WHERE (`gnotes`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering gnotes/show
+Rendered layouts/_top (19.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 46ms (View: 27, DB: 4) | 200 OK [http://localhost/gnotes/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#images to ico (for 127.0.0.1 at 2010-04-06 21:35:10) [GET]
+  Parameters: {"id"=>"favicon"}
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 5ms (View: 3, DB: 0) | 401 Unauthorized [http://localhost/gnotes/images/favicon.ico]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-06 21:35:18) [GET]
+  Parameters: {"page"=>"1"}
+  [4;36;1mGnote Load (0.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (21.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 39, DB: 4) | 200 OK [http://localhost/gnotes?page=1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#show (for 127.0.0.1 at 2010-04-06 21:35:21) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mGnote Columns (5.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mGnote Load (0.0ms)[0m   [0;1mSELECT * FROM `gnotes` WHERE (`gnotes`.`id` = 7) [0m
+Rendering template within layouts/application
+Rendering gnotes/show
+Rendered layouts/_top (20.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 25, DB: 5) | 200 OK [http://localhost/gnotes/7]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#images to ico (for 127.0.0.1 at 2010-04-06 21:35:21) [GET]
+  Parameters: {"id"=>"favicon"}
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 4ms (View: 2, DB: 1) | 401 Unauthorized [http://localhost/gnotes/images/favicon.ico]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-06 21:35:32) [GET]
+  [4;35;1mGnote Load (1.0ms)[0m   [0mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;36;1mGnote Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (20.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 56ms (View: 36, DB: 8) | 200 OK [http://localhost/gnotes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#show (for 127.0.0.1 at 2010-04-06 21:35:35) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mGnote Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mGnote Load (0.0ms)[0m   [0mSELECT * FROM `gnotes` WHERE (`gnotes`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering gnotes/show
+Rendered layouts/_top (19.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 46ms (View: 27, DB: 3) | 200 OK [http://localhost/gnotes/9]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#images to ico (for 127.0.0.1 at 2010-04-06 21:35:36) [GET]
+  Parameters: {"id"=>"favicon"}
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 4ms (View: 2, DB: 0) | 401 Unauthorized [http://localhost/gnotes/images/favicon.ico]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#images to ico (for 127.0.0.1 at 2010-04-06 21:35:39) [GET]
+  Parameters: {"id"=>"favicon"}
+  [4;36;1mUser Columns (135.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`login` = 'afa') LIMIT 1[0m
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 186ms (View: 4, DB: 135) | 401 Unauthorized [http://localhost/gnotes/images/favicon.ico]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#images to ico (for 127.0.0.1 at 2010-04-06 21:35:42) [GET]
+  Parameters: {"id"=>"favicon"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`login` = 'awwwwwwwww') LIMIT 1[0m
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 31ms (View: 3, DB: 6) | 401 Unauthorized [http://localhost/gnotes/images/favicon.ico]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-06 21:36:30) [GET]
+  Parameters: {"page"=>"1"}
+  [4;36;1mGnote Load (1.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (5.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (1.0ms)
+Rendered layouts/_top (27.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 81ms (View: 49, DB: 9) | 200 OK [http://localhost/gnotes?page=1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#show (for 127.0.0.1 at 2010-04-06 21:36:33) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mGnote Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mGnote Load (1.0ms)[0m   [0;1mSELECT * FROM `gnotes` WHERE (`gnotes`.`id` = 4) [0m
+Rendering template within layouts/application
+Rendering gnotes/show
+Rendered layouts/_top (20.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 46ms (View: 27, DB: 5) | 200 OK [http://localhost/gnotes/4]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#images to ico (for 127.0.0.1 at 2010-04-06 21:36:38) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, g, index, new, show, and update):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-06 21:36:42) [GET]
+  Parameters: {"page"=>"1"}
+  [4;35;1mGnote Load (1.0ms)[0m   [0mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;36;1mGnote Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (18.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 57ms (View: 37, DB: 5) | 200 OK [http://localhost/gnotes?page=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#show (for 127.0.0.1 at 2010-04-06 21:36:46) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mGnote Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mGnote Load (0.0ms)[0m   [0mSELECT * FROM `gnotes` WHERE (`gnotes`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering gnotes/show
+Rendered layouts/_top (22.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 28, DB: 3) | 200 OK [http://localhost/gnotes/5]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#images to ico (for 127.0.0.1 at 2010-04-06 21:36:47) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, g, index, new, show, and update):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-06 21:36:52) [GET]
+  Parameters: {"page"=>"1"}
+  [4;36;1mGnote Load (1.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (22.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 58ms (View: 39, DB: 4) | 200 OK [http://localhost/gnotes?page=1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#show (for 127.0.0.1 at 2010-04-06 21:36:55) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mGnote Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mGnote Load (0.0ms)[0m   [0;1mSELECT * FROM `gnotes` WHERE (`gnotes`.`id` = 6) [0m
+Rendering template within layouts/application
+Rendering gnotes/show
+Rendered layouts/_top (20.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 28, DB: 5) | 200 OK [http://localhost/gnotes/6]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#images to ico (for 127.0.0.1 at 2010-04-06 21:36:55) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, g, index, new, show, and update):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#new (for 127.0.0.1 at 2010-04-06 21:37:09) [GET]
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/gnotes/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-06 21:37:10) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 111ms (View: 107, DB: 1) | 200 OK [http://localhost/session/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-06 21:37:11) [GET]
+
+ActionController::RoutingError (No route matches "/session/images/favicon.ico" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-04-06 21:37:16) [POST]
+  Parameters: {"commit"=>"login", "authenticity_token"=>"BelCGvJ5UEg9noUKpTSD3X1RohnQkynmzmbyYjRGCm4=", "login"=>"admin", "password"=>"inruby"}
+  [4;35;1mUser Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`login` = 'admin') LIMIT 1[0m
+Redirected to http://localhost:3000/gnotes/new
+Completed in 35ms (DB: 5) | 302 Found [http://localhost/session]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#new (for 127.0.0.1 at 2010-04-06 21:37:17) [GET]
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) LIMIT 1[0m
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+Rendering template within layouts/application
+Rendering gnotes/new
+Rendered gnotes/_form (3.0ms)
+Rendered layouts/_top (19.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 90ms (View: 45, DB: 9) | 200 OK [http://localhost/gnotes/new]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#images to ico (for 127.0.0.1 at 2010-04-06 21:37:19) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, g, index, new, show, and update):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-06 21:40:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 64ms (View: 60, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-06 21:42:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 46ms (View: 43, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-06 21:42:23) [POST]
+  Parameters: {"authenticity_token"=>"BelCGvJ5UEg9noUKpTSD3X1RohnQkynmzmbyYjRGCm4=", "locale"=>"zh-CN"}
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 33ms (View: 29, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-06 21:43:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 43ms (View: 40, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-06 21:43:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 43ms (View: 39, DB: 0) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-06 21:43:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 42ms (View: 39, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-06 21:43:59) [GET]
+  [4;36;1mGnote Load (1.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+  [4;35;1mUser Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) LIMIT 1[0m
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (102.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 234ms (View: 205, DB: 9) | 200 OK [http://localhost/gnotes]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#sendmail (for 127.0.0.1 at 2010-04-06 21:45:27) [GET]
+Rendering template within layouts/application
+Rendering emailer/sendmail
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 40ms (View: 36, DB: 1) | 200 OK [http://localhost/emailer/sendmail]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#images to ico (for 127.0.0.1 at 2010-04-06 21:45:27) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and sendmail):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#sendmail (for 127.0.0.1 at 2010-04-06 21:46:51) [GET]
+Rendering template within layouts/application
+Rendering emailer/sendmail
+Rendered layouts/_top (20.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 39ms (View: 36, DB: 2) | 200 OK [http://localhost/emailer/sendmail]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#images to ico (for 127.0.0.1 at 2010-04-06 21:46:52) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and sendmail):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#sendmail (for 127.0.0.1 at 2010-04-06 21:47:03) [GET]
+Rendering template within layouts/application
+Rendering emailer/sendmail
+Rendered layouts/_top (104.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 126ms (View: 123, DB: 0) | 200 OK [http://localhost/emailer/sendmail]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#images to ico (for 127.0.0.1 at 2010-04-06 21:47:08) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and sendmail):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#sendmail (for 127.0.0.1 at 2010-04-06 21:47:47) [GET]
+Rendering template within layouts/application
+Rendering emailer/sendmail
+Rendered layouts/_top (20.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 39ms (View: 36, DB: 2) | 200 OK [http://localhost/emailer/sendmail]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#images to ico (for 127.0.0.1 at 2010-04-06 21:47:48) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and sendmail):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#sendmail (for 127.0.0.1 at 2010-04-06 21:48:08) [GET]
+Rendering template within layouts/application
+Rendering emailer/sendmail
+Rendered layouts/_top (23.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 45ms (View: 42, DB: 2) | 200 OK [http://localhost/emailer/sendmail]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#images to ico (for 127.0.0.1 at 2010-04-06 21:48:09) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and sendmail):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#sendmail (for 127.0.0.1 at 2010-04-06 21:48:15) [GET]
+Rendering template within layouts/application
+Rendering emailer/sendmail
+Rendered layouts/_top (20.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 33ms (View: 30, DB: 1) | 200 OK [http://localhost/emailer/sendmail]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#images to ico (for 127.0.0.1 at 2010-04-06 21:48:17) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and sendmail):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#sendmail (for 127.0.0.1 at 2010-04-06 21:48:24) [GET]
+Rendering template within layouts/application
+Rendering emailer/sendmail
+Rendered layouts/_top (21.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 41ms (View: 38, DB: 2) | 200 OK [http://localhost/emailer/sendmail]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#images to ico (for 127.0.0.1 at 2010-04-06 21:48:25) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and sendmail):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#sendmail (for 127.0.0.1 at 2010-04-06 21:48:46) [GET]
+Rendering template within layouts/application
+Rendering emailer/sendmail
+Rendered layouts/_top (21.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 44ms (View: 40, DB: 0) | 200 OK [http://localhost/emailer/sendmail]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#images to ico (for 127.0.0.1 at 2010-04-06 21:48:47) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and sendmail):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#sendmail (for 127.0.0.1 at 2010-04-06 21:51:06) [GET]
+Rendering template within layouts/application
+Rendering emailer/sendmail
+Rendered layouts/_top (20.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 32ms (View: 28, DB: 0) | 200 OK [http://localhost/emailer/sendmail]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#images to ico (for 127.0.0.1 at 2010-04-06 21:51:07) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and sendmail):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-06 21:51:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#sendmail (for 127.0.0.1 at 2010-04-06 21:52:56) [GET]
+Rendering template within layouts/application
+Rendering emailer/sendmail
+Rendered layouts/_top (26.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 42ms (View: 39, DB: 0) | 200 OK [http://localhost/emailer/sendmail]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#images to ico (for 127.0.0.1 at 2010-04-06 21:53:01) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and sendmail):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#sendmail (for 127.0.0.1 at 2010-04-06 21:53:19) [GET]
+Rendering template within layouts/application
+Rendering emailer/sendmail
+Rendered layouts/_top (24.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 39ms (View: 36, DB: 0) | 200 OK [http://localhost/emailer/sendmail]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#images to ico (for 127.0.0.1 at 2010-04-06 21:53:21) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and sendmail):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#sendmail (for 127.0.0.1 at 2010-04-06 21:53:46) [GET]
+Rendering template within layouts/application
+Rendering emailer/sendmail
+Rendered layouts/_top (27.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 49ms (View: 46, DB: 0) | 200 OK [http://localhost/emailer/sendmail]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EmailerController#images to ico (for 127.0.0.1 at 2010-04-06 21:53:46) [GET]
+  Parameters: {"id"=>"favicon"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and sendmail):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 21:55:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 40ms (View: 37, DB: 2) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-06 21:59:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 32ms (View: 29, DB: 0) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-06 21:59:45) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 43, DB: 1) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 21:59:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 32ms (View: 29, DB: 1) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-06 22:00:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 34ms (View: 30, DB: 0) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-06 22:02:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 33ms (View: 30, DB: 0) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:02:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 36ms (View: 32, DB: 1) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:03:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 36ms (View: 30, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-06 22:03:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 43ms (View: 40, DB: 1) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:04:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:05:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 28, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:05:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 39ms (View: 35, DB: 1) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:05:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 42ms (View: 38, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:06:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:06:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 39ms (View: 35, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:07:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 40ms (View: 36, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:09:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 41ms (View: 38, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:09:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 51ms (View: 47, DB: 1) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:09:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 46ms (View: 42, DB: 1) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:10:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 46ms (View: 43, DB: 2) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-06 22:10:35) [POST]
+  Parameters: {"authenticity_token"=>"BelCGvJ5UEg9noUKpTSD3X1RohnQkynmzmbyYjRGCm4=", "locale"=>"en"}
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (6.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 43ms (View: 38, DB: 1) | 200 OK [http://localhost/contact]

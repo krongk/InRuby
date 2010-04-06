@@ -13,6 +13,7 @@ en:
     sitemap: "Sitemap"
     contact: "Contact"
   banner:
+    choose: "选择语言"
     title: "We are developing web applications"
     title2: "We’re riding Ruby on Rails in China!"
     slogan: "<LI>Web Design</LI><LI>Web Development</LI><LI>Ruby on Rails</LI><LI>Ruby Trainning</LI>"
@@ -89,7 +90,7 @@ en:
           <br/>As operational tasks become increasingly automated, if not completely web-based, the technology powering them becomes mission critical. At Inruby Technology Partners, we assess your needs for today and plan for those of tomorrow. In doing so, we empower your business with technology&nbsp;that will&nbsp;generate and refine operational efficiencies, promote your products and services, and drive revenue and profitability."
     t5: "Cooperative Enterprises"
     t6: "Contact us"
-    us: "Reader,<br/><br/>
+    us: "Hi,Reader<br/><br/>
         <p>Consider this my cover letter. I have been working in the IT business for 6 years now.
         I graduated from famous universities in China,Professional is the Information and Computing Science.
         </p><p>I’ve also worked nearly every level of the development cycle. I’ve managed the technical product support teams, tested software, designed features, and developed web applications in Ruby on Rails. I’ve discussed and drawn up technical specifications and understand how to design and provide secure, reliable, and user friendly products.

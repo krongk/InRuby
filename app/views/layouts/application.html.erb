@@ -5,13 +5,11 @@
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <META name="author" content="kenrome">
-  <meta name="baidu_union_verify" content="d7fdd8d7c7f0daea1819fef76aa91ab2">
-  <meta name="google-site-verification" content="1HjZDbC34huOkYQsEcrYuS_ImKp5Ga8UL5cCFwjrSLk" />
   <META name="keywords" content="ruby,ruby on rails,web,web design,web development,web app,cloud computing">
-  <META name="description" content="网站建设,网站开发,云端网站服务专家">
-    <title>inruby: <%= controller.controller_name %>,<%= controller.action_name %></title>
+  <META name="description" content="红宝石网络,专业网站建设,网站开发,云端网站服务专家">
+   <title><%= yield(:title) || "inruby"  %> </title>
   <%= stylesheet_link_tag 'globe','g','scaffold' %>
-    <%= stylesheet_link_tag 'gnote' if controller.controller_name =='gnotes'%>
+  <%= stylesheet_link_tag 'gnote' if controller.controller_name =='gnotes'%>
   <LINK rel="Shortcut Icon" href="images/favicon.ico">
   <LINK rel="Bookmark" href="images/favicon.ico">
 </head>

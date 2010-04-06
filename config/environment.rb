@@ -55,7 +55,7 @@ ActionMailer::Base.smtp_settings = {
     :password => "0020010"
   }
 #set locale
-I18n.default_locale = 'en'
+I18n.default_locale = 'zh-CN'
 
 LOCALES_DIRECTORY = "#{RAILS_ROOT}/config/locales"
 LOCALES_AVAILABLE = Dir["#{LOCALES_DIRECTORY}/*.{rb,yml}"].collect do |locale_file|

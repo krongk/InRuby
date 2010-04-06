@@ -1,5 +1,5 @@
 class GnotesController < ApplicationController
-  before_filter :login_required, :except=>[:index,:show]
+  before_filter :login_required, :only=>[:new,:create,:edit,:update,:destroy]
   # GET /gnotes
   # GET /gnotes.xml
   def index

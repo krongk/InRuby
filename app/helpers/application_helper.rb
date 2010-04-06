@@ -7,6 +7,10 @@ module ApplicationHelper
        date.strftime("%Y-%m-%d %H:%M")
     end
   end
+  #设定每个页面的标题
+  def title(page_title)
+    content_for(:title){page_title}
+  end
   #不知道干什么用的
    def show_locale_files
     output = ''
