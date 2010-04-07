@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>inRuby</title>
+    <style type="text/css" media="screen">
+      body {
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 0;
+        background-color: #fff;
+        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+        font-size: 13px;
+        color: #333;
+      }
+
+      h1 {
+        font-size: 28px;
+        color: #000;
+      }
+
+      a  {color: #03c}
+      a:hover {
+        background-color: #03c;
+        color: white;
+        text-decoration: none;
+      }
+
+
+      #page {
+	background-color: #FFD5D5;
+	width: 750px;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+      }
+
+      #content {
+	float: left;
+	background-color: white;
+	border-right: 1px solid #aaa;
+	border-top: none;
+	padding: 25px;
+	width: 500px;
+      }
+
+      #sidebar {
+        float: right;
+        width: 180px;
+      }
+
+      #footer {
+        clear: both;
+      }
+
+
+      #header, #about, #getting-started {
+        padding-left: 75px;
+        padding-right: 30px;
+      }
+
+
+      #header {
+        background-image: url("images/ruby1.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 50px;
+      }
+      #header h1, #header h2 {
+	margin: 0 0 0 -20px;
+	color: #900;
+}
+      #header h2 {
+        color: #888;
+        font-weight: normal;
+        font-size: 16px;
+      }
+
+
+      #about h3 {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+
+      #about-content {
+        background-color: #ffd;
+        border: 1px solid #fc0;
+        margin-left: -11px;
+      }
+      #about-content table {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 11px;
+        border-collapse: collapse;
+      }
+      #about-content td {
+        padding: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+      #about-content td.name  {color: #555}
+      #about-content td.value {color: #000}
+
+      #about-content.failure {
+        background-color: #fcc;
+        border: 1px solid #f00;
+      }
+      #about-content.failure p {
+        margin: 0;
+        padding: 10px;
+      }
+
+
+      #getting-started {
+	margin-top: 25px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #aaa;
+	padding-top: 15px;
+	padding-left: 30px;
+      }
+      #getting-started h1 {
+        margin: 0;
+        font-size: 20px;
+      }
+      #getting-started h2 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: normal;
+        color: #333;
+        margin-bottom: 25px;
+      }
+      #getting-started ol {
+        margin-left: 0;
+        padding-left: 0;
+      }
+      #getting-started li {
+	font-size: 18px;
+	color: #900;
+	margin-bottom: 25px;
+      }
+      #getting-started li h2 {
+	margin: 0;
+	font-weight: bold;
+	font-size: 18px;
+	color: #900;
+      }
+      #getting-started li p {
+        color: #555;
+        font-size: 13px;
+      }
+
+
+      #search {
+	margin: 0;
+	font-size: 11px;
+      }
+      #search input {
+        font-size: 11px;
+        margin: 2px;
+      }
+      #search-text {
+	width: 100px
+}
+
+
+      #sidebar ul {
+        margin-left: 0;
+        padding-left: 0;
+      }
+      #sidebar ul h3 {
+        margin-top: 25px;
+        font-size: 16px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+      }
+      #sidebar li {
+        list-style-type: none;
+      }
+      #sidebar ul.links li {
+        margin-bottom: 5px;
+      }
+
+    </style>
+<script type="text/javascript" src="javascripts/prototype.js"></script>
+<script type="text/javascript" src="javascripts/effects.js"></script>
+</head>
+  <body>
+    <div id="page">
+      <div id="sidebar">
+        <ul id="sidebar-items">
+          <li>
+            <form id="search" action="http://www.google.com/search" method="get">
+              <input type="hidden" name="hl" value="en" />
+              <input name="q" type="text" id="search-text" value="site:rubyonrails.org " />
+              <input type="submit" value="Search" />
+            </form>
+          </li>
+
+          <li>
+            <h3>技术专长</h3>
+            <ul class="links">
+              <li><a href="http://www.ruby-lang.org/" target="_blank">Ruby</a></li>
+              <li><a href="http://www.rubyonrails.org/" target="_blank">Ruby on Rails</a></li>
+              <li><a href="http://www.github.com/" target="_blank">Github</a></li>
+              <li><a href="http://www.heroku.com/" target="_blank">Heroku</a></li>
+              <li><a href="http://www.prototypejs.org/" target="_blank">Prototype</a></li>
+              <li><a href="http://flex.org/" target="_blank">Flex</a></li>
+              <li><a href="#">Java/.NET</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <h3>相关链接</h3>
+            <ul class="links">
+              <li><a href="http://api.rubyonrails.org/" target="_blank">Rails API</a></li>
+              <li><a href="http://stdlib.rubyonrails.org/" target="_blank">Ruby standard library</a></li>
+              <li><a href="http://corelib.rubyonrails.org/" target="_blank">Ruby core</a></li>
+              <li><a href="http://guides.rubyonrails.org/" target="_blank">Rails Guides</a></li>
+              <li><a href="http://www.rubyonrails.org/" target="_blank">Ruby on Rails</a></li>
+              <li><a href="http://weblog.rubyonrails.org/" target="_blank" >Official weblog</a></li>
+              <li><a href="http://wiki.rubyonrails.org/" target="_blank">Wiki</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <h3>跟踪我们的项目</h3>
+            <ul class="links">
+              <li><a href="http://github.com/krongk" target="_blank">最新项目进度</a></li>
+              <li><a href="http://www.aa-visa.com" target="_blank">亚美经济文化</a></li>
+            </ul>
+          </li>
+          
+           <li>
+           <h3></h3>
+            <a href="/">返回首页</a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div id="content">
+        <div id="header">
+          <h1>inRuby</h1>
+          <h2>We&rsquo;re riding Ruby on Rails in china!</h2>
+        </div>
+
+        <div id="about">
+
+        </div>
+
+        <div id="getting-started"><h1>欢迎光临!</h1>
+          <p>我们是一个自由的互联网Web开发团队,在企业使用过多年的JAVA,C#技术,从2007年开始接触Ruby,Ruby on Rails构建Web2.0以及丰富的Web应用,具备敏捷快速的开发能力.</p>
+          <h2>如果你希望得到帮助, 通过以下三步,我们为你开启互联网新页:</h2>
+
+          <ol>
+            <li>
+              <h2>你有一个很酷的点子,或者已经形成需求说明书</h2>
+              <p>发挥你富有创意的想象,互联网最鼓励很好的创意, 并把你的想法告诉我们,或者,写下来更好.</p>
+            </li>
+
+            <li>
+              <h2>通过各种方式与我们取得联系</h2>
+              <p>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="110" id="FlashID" accesskey="1" tabindex="1" title="kenrome">
+                  <param name="movie" value="images/song.swf" />
+                  <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+                  <!--[if !IE]>-->
+                  <object type="application/x-shockwave-flash" data="images/song.swf" width="300" height="110">
+                    <!--<![endif]-->
+                    <param name="quality" value="high" />
+                    <param name="wmode" value="opaque" />
+                    <param name="swfversion" value="8.0.35.0" />
+                    <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+                    <param name="expressinstall" value="../../Scripts/expressInstall.swf" />
+                    <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+                    <div>
+                      <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+                      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+                    </div>
+                    <!--[if !IE]>-->
+                  </object>
+                  <!--<![endif]-->
+                </object>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="110" id="FlashID2" accesskey="2" tabindex="2" title="tom">
+                  <param name="movie" value="images/tom.swf" />
+                  <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+                  <!--[if !IE]>-->
+                  <object type="application/x-shockwave-flash" data="images/tom.swf" width="300" height="110">
+                    <!--<![endif]-->
+                    <param name="quality" value="high" />
+                    <param name="wmode" value="opaque" />
+                    <param name="swfversion" value="8.0.35.0" />
+                    <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+                    <param name="expressinstall" value="../../Scripts/expressInstall.swf" />
+                    <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+                    <div>
+                      <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+                      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+                    </div>
+                    <!--[if !IE]>-->
+                  </object>
+                  <!--<![endif]-->
+                </object>
+              </p>
+              <p>we are live in chengdu, china(中国.成都)</p>
+            </li>
+
+            <li>
+              <h2>沟通后,达成合作协议</h2>
+              <p>这是项目启动的第一步,我们会认真对待你的每一个想法,并通过最新的web开发技术很快的为你呈现.<br/>
+              同时,项目的维护是一个漫长而杂乱的过程,我们会不断跟随你的项目一起发展,共同成长...</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div id="footer"></div>
+    </div>
+</body>
+</html>

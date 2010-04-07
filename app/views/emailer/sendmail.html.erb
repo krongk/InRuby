@@ -1,4 +1,4 @@
-<% title "邮件发送" %>
+<% title "邮件发送" %><div style=" background-color: #ffffff;">
 <div class="features">
 <h3>发送邮件(Send Email)</h3>
 <% form_tag :controller=>'emailer',:action => 'sendmail' do %>
@@ -10,4 +10,4 @@
   <%= text_area 'email', 'message', :cols=>'100',:rows=>'12'%></p>
   <%= submit_tag " 发送(Send) " %>
 <% end %>
-</div>
+</div></div>

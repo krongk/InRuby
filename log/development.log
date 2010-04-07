@@ -20946,3 +20946,2263 @@ Rendering welcome/contact
 Rendered layouts/_top (6.0ms)
 Rendered layouts/_footer (0.0ms)
 Completed in 43ms (View: 38, DB: 1) | 200 OK [http://localhost/contact]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:22:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (4.0ms)
+Rendered layouts/_top (14.0ms)
+Rendered layouts/_footer (16.0ms)
+Completed in 3078ms (View: 236, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:23:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 114ms (View: 110, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:23:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (2.0ms)
+Rendered layouts/_top (6.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 114ms (View: 108, DB: 1) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-08 00:24:13) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 133ms (View: 130, DB: 2) | 200 OK [http://localhost/signup]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:24:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 40ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-08 00:24:20) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 33, DB: 1) | 200 OK [http://localhost/signup]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:24:35) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 40ms (View: 36, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:24:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 43ms (View: 40, DB: 0) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:24:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 34, DB: 1) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:25:06) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 44ms (View: 40, DB: 1) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:26:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 66ms (View: 62, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:26:28) [GET]
+  [4;36;1mGnote Load (295.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (20.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (3.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 418ms (View: 81, DB: 318) | 200 OK [http://localhost/gnotes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#show (for 127.0.0.1 at 2010-04-08 00:29:43) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mGnote Load (0.0ms)[0m   [0;1mSELECT * FROM `gnotes` WHERE (`gnotes`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering gnotes/show
+Rendered layouts/_top (20.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 55ms (View: 36, DB: 3) | 200 OK [http://localhost/gnotes/3]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:34:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 28, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:34:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 28, DB: 0) | 200 OK [http://localhost/service]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:34:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 43, DB: 0) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:34:16) [GET]
+  [4;35;1mGnote Load (1.0ms)[0m   [0mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;36;1mGnote Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (19.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 64ms (View: 42, DB: 6) | 200 OK [http://localhost/gnotes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:34:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 33ms (View: 30, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:34:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (75.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 105ms (View: 102, DB: 0) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:34:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 39ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:35:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 32ms (View: 29, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:35:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 34ms (View: 31, DB: 1) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:35:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 41ms (View: 37, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:35:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 41ms (View: 37, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:37:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 33ms (View: 29, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:37:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 33ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:37:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 40ms (View: 33, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:37:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:38:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 33ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:38:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 32ms (View: 28, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:38:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 40, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:40:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 43ms (View: 40, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:40:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:41:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 113ms (View: 110, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:41:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 42ms (View: 38, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:41:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:41:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 36ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:42:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 28, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:42:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:43:06) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 36ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:43:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 34ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:43:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 35ms (View: 31, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:44:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 27, DB: 0) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:44:06) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 32ms (View: 29, DB: 1) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:44:07) [GET]
+  [4;36;1mGnote Load (1.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (29.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 76ms (View: 53, DB: 4) | 200 OK [http://localhost/gnotes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:44:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 46ms (View: 42, DB: 1) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:44:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 44ms (View: 39, DB: 2) | 200 OK [http://localhost/service]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:44:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 62ms (View: 57, DB: 1) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:44:18) [GET]
+  [4;35;1mGnote Load (1.0ms)[0m   [0mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;36;1mGnote Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (22.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 68ms (View: 45, DB: 4) | 200 OK [http://localhost/gnotes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:46:35) [GET]
+  [4;36;1mGnote Load (1.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (19.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 60ms (View: 39, DB: 5) | 200 OK [http://localhost/gnotes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:47:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 32ms (View: 29, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:47:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 39ms (View: 35, DB: 0) | 200 OK [http://localhost/service]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:47:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 32, DB: 2) | 200 OK [http://localhost/service]
+  [4;35;1mSQL (2.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:47:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 40ms (View: 36, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:48:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 42ms (View: 37, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:48:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 32ms (View: 29, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:49:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 30, DB: 2) | 200 OK [http://localhost/service]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:49:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (2.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 39ms (View: 36, DB: 0) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:49:21) [GET]
+  [4;35;1mGnote Load (1.0ms)[0m   [0mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;36;1mGnote Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (1.0ms)
+Rendered layouts/_top (19.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 60ms (View: 37, DB: 7) | 200 OK [http://localhost/gnotes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:49:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 32ms (View: 29, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:49:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:50:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 43ms (View: 40, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:51:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:51:30) [POST]
+  Parameters: {"authenticity_token"=>"HbIbx12ub+aDhcDeVmqOzwMUKEYVQXRM/GjfjZA1Vmo=", "locale"=>"en"}
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 38ms (View: 35, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:51:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 38ms (View: 34, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:51:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 34, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:51:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 108ms (View: 105, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:51:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 41, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:51:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 34, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:51:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:51:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 33, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:52:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 36ms (View: 32, DB: 0) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:52:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 39ms (View: 35, DB: 1) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:52:10) [GET]
+  [4;36;1mGnote Load (1.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (93.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 135ms (View: 112, DB: 5) | 200 OK [http://localhost/gnotes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:52:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 34ms (View: 31, DB: 0) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:52:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 36ms (View: 32, DB: 2) | 200 OK [http://localhost/service]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:52:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 38ms (View: 34, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:53:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 44, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:53:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 109ms (View: 106, DB: 0) | 200 OK [http://localhost/service]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:53:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 34, DB: 0) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:53:17) [GET]
+  [4;35;1mGnote Load (0.0ms)[0m   [0mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;36;1mGnote Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (20.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 59ms (View: 36, DB: 4) | 200 OK [http://localhost/gnotes]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:53:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 42ms (View: 36, DB: 2) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:53:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 34ms (View: 31, DB: 0) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-08 00:53:26) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 39ms (View: 36, DB: 1) | 200 OK [http://localhost/signup]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:54:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 111ms (View: 108, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:54:21) [GET]
+  [4;36;1mGnote Load (1.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (21.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 57ms (View: 37, DB: 7) | 200 OK [http://localhost/gnotes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-08 00:55:37) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 32ms (View: 29, DB: 1) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:55:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-08 00:55:40) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 34ms (View: 30, DB: 0) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:55:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-08 00:55:53) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 47ms (View: 41, DB: 1) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:55:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-08 00:55:54) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 33, DB: 1) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:55:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-08 00:55:56) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 36ms (View: 33, DB: 0) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:55:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:55:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:55:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:56:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 34ms (View: 30, DB: 2) | 200 OK [http://localhost/service]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:56:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:56:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (2.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 39ms (View: 35, DB: 0) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:56:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:56:02) [GET]
+  [4;35;1mGnote Load (1.0ms)[0m   [0mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;36;1mGnote Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (21.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 61ms (View: 39, DB: 5) | 200 OK [http://localhost/gnotes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:56:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:56:37) [GET]
+  [4;36;1mGnote Load (1.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (19.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 55ms (View: 36, DB: 5) | 200 OK [http://localhost/gnotes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:56:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:56:38) [GET]
+  [4;35;1mGnote Load (1.0ms)[0m   [0mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;36;1mGnote Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (20.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 61ms (View: 40, DB: 4) | 200 OK [http://localhost/gnotes]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:56:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:56:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 43ms (View: 37, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:56:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:56:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:56:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:56:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 39ms (View: 36, DB: 2) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:56:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:56:45) [GET]
+  [4;36;1mGnote Load (61.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (20.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 133ms (View: 48, DB: 67) | 200 OK [http://localhost/gnotes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:56:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:56:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 32, DB: 1) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:56:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:56:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 33, DB: 1) | 200 OK [http://localhost/service]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:56:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:57:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 118ms (View: 113, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:57:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:57:13) [GET]
+  [4;35;1mGnote Load (1.0ms)[0m   [0mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;36;1mGnote Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (21.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 64ms (View: 43, DB: 5) | 200 OK [http://localhost/gnotes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:57:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:57:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 41ms (View: 37, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:57:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated2d.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:57:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 133ms (View: 128, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:57:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:57:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 38ms (View: 34, DB: 1) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:57:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 41ms (View: 37, DB: 1) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:57:42) [GET]
+  [4;36;1mGnote Load (1.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (24.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 71ms (View: 48, DB: 6) | 200 OK [http://localhost/gnotes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:57:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:57:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 38ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-08 00:57:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 34, DB: 0) | 200 OK [http://localhost/service]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-08 00:57:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 38ms (View: 34, DB: 1) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:57:52) [GET]
+  [4;35;1mGnote Load (2.0ms)[0m   [0mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;36;1mGnote Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `gnotes`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (1.0ms)
+Rendered layouts/_top (21.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 142ms (View: 116, DB: 5) | 200 OK [http://localhost/gnotes]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-08 00:57:55) [GET]
+  [4;36;1mGnote Load (1.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (0.0ms)
+Rendered layouts/_top (21.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 41, DB: 5) | 200 OK [http://localhost/gnotes]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-08 00:57:58) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 44ms (View: 38, DB: 0) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-08 00:58:01) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 53ms (View: 49, DB: 0) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-08 00:58:04) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 50ms (View: 45, DB: 1) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-08 00:58:15) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 110ms (View: 107, DB: 0) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:58:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integratedss.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-08 00:58:16) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 34ms (View: 30, DB: 1) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:58:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integratedss.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-08 00:58:16) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 34ms (View: 30, DB: 0) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:58:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integratedss.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-08 00:59:36) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 37ms (View: 35, DB: 0) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:59:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/globea.css" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:59:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/ga.css" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:59:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffolda.css" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (2.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:59:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 32ms (View: 29, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:59:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/globea.css" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:59:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffolda.css" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:59:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/ga.css" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 00:59:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 33ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:59:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/globea.css" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:59:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffolda.css" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 00:59:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/ga.css" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 01:00:22) [POST]
+  Parameters: {"authenticity_token"=>"HbIbx12ub+aDhcDeVmqOzwMUKEYVQXRM/GjfjZA1Vmo=", "locale"=>"zh-CN"}
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 39ms (View: 34, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 01:00:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/globea.css" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 01:00:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffolda.css" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 01:00:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/ga.css" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 01:01:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 40ms (View: 36, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-08 01:01:25) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 49ms (View: 45, DB: 0) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-08 01:01:33) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 41ms (View: 37, DB: 0) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#help (for 127.0.0.1 at 2010-04-08 01:01:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/help
+Rendered layouts/_top (75.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 126ms (View: 122, DB: 0) | 200 OK [http://localhost/help]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-08 01:01:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 65ms (View: 61, DB: 1) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-08 01:02:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 38ms (View: 35, DB: 1) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#contact (for 127.0.0.1 at 2010-04-08 01:02:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/contact
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 104ms (View: 28, DB: 1) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#help (for 127.0.0.1 at 2010-04-08 01:02:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/help
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 28, DB: 0) | 200 OK [http://localhost/help]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#help (for 127.0.0.1 at 2010-04-08 01:03:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/help
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 39ms (View: 36, DB: 0) | 200 OK [http://localhost/help]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 01:03:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 108ms (View: 103, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 01:06:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 32ms (View: 29, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 01:06:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 34ms (View: 30, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 01:08:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 43ms (View: 38, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 01:08:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 36ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-08 01:08:10) [POST]
+  Parameters: {"authenticity_token"=>"HbIbx12ub+aDhcDeVmqOzwMUKEYVQXRM/GjfjZA1Vmo=", "locale"=>"zh-CN"}
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 38ms (View: 35, DB: 1) | 200 OK [http://localhost/]

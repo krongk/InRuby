@@ -45,11 +45,13 @@ body{background:#FFFFFF; color:#333333; font-size:12px; line-height:180%; font-f
 .mainwebnav li{float:left; display:block; width:100px;}
 .mainwebnav a{color:#FFFFFF; text-decoration:none; text-align:center;height:35px; line-height:35px; display:block;white-space: nowrap; width:89px; margin:0 auto; text-align:center;}
 .mainwebnav a:hover{text-decoration:underline;}
-#page_index .navind,#page_download .navdownload,#page_function .navfunction{background:url(bg_integrated.png) left -107px; color:#fffcb5; cursor:default; color:#333333; cursor:default;}
-#page_index .navind:hover,#page_download .navdownload:hover,#page_function .navfunction:hover{text-decoration:none;}
+.mainwebnav a:visited{ color:#ffffff; text-decoration:none;}
+/*#page_index .navind,#page_download .navdownload,#page_function .navfunction{background:url(bg_integrated.png) left -107px; color:#fffcb5; cursor:default; color:#333333; cursor:default;}
+*/#page_index .navind:hover,#page_download .navdownload:hover,#page_function .navfunction:hover{text-decoration:none;}
 
 .submenu{float:right; margin:-27px 20px 0 0;font-size:12px; font-weight:normal;}
 .submenu li{float:left;}
+.submenu a:visited{ color:#ffffff; text-decoration:none;}
 li.feedback a,li.service a{background:url(bg_integrated_trans.gif) no-repeat left -571px; padding:1px 0 1px 19px; color:#FFF;}
 .submenu li.service a{background-position:left -539px; margin-left:20px; color:#FFF;}
 

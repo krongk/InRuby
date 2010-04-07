@@ -1,4 +1,4 @@
-<% title "搜索列表" %>
+<% title "搜索列表" %><div style=" background-color: #ffffff;">
 <div class="admin_menu">搜索内容
 <%=render :partial=>'layouts/search' -%>
 </div>
@@ -8,4 +8,4 @@
 <div id="gnotes"><ul><% @gnotes.each do |gnote| -%><li><div class="g_title" style="font-size: 14px;"><%=h gnote.id %>. <%=link_to gnote.contact,gnote,:class=>'g_title' %></div></li><% end  %></ul></div>
 <% else  %>
 没有搜索到任何内容
-<% end %>
+<% end %></div>

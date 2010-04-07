@@ -1,4 +1,4 @@
-<% title "user login" %>
+<% title "user login" %><DIV id="content" style=" background-color: #ffffff;">
 <% form_tag session_path do -%>
 <p><label for="login"><%= t 'activerecord.models.attributes.user.login' %> </label><br/>
 <%= text_field_tag 'login' %></p>
@@ -13,3 +13,4 @@
 
 <p><%= submit_tag t('form.login') %></p>
 <% end -%>
+</div>
