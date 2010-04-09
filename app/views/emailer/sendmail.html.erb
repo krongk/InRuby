@@ -1,9 +1,10 @@
 <% title "邮件发送" %><div style=" background-color: #ffffff;">
 <div class="features">
-<h3>发送邮件(Send Email)</h3>
+<h3>发送邮件(Send Email)&nbsp;&nbsp;&nbsp;<a href="/admin">返回管理菜单</a></h3>
+<p>&nbsp;</p>
 <% form_tag :controller=>'emailer',:action => 'sendmail' do %>
  <p><label for="email_recipient">收件人(Recipient)</label>:
-  <%= text_field 'email', 'recipient',:size=>"60" %><br/></p>
+  <%= text_field 'email', 'recipient',:size=>"60",:value=>params[:recipient]%><br/></p>
  <p><label for="email_subject">标题(Subject)</label>:&nbsp;&nbsp;  &nbsp;&nbsp;
   <%= text_field 'email', 'subject',:size=>'60' %><br/></p>
   <p><label for="email_message">内容(Message)</label><br/>

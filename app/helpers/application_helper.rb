@@ -3,7 +3,7 @@ module ApplicationHelper
   #[ ["index"],["about"],["career"],["client"],["contact"],["help"],["product"],["project"],["service"],["skill"] ]
   CATEGORY=[ ["index"],["about"],["career"],["client"],["contact"],["help"],["product"],["project"],["service"],["skill"] ]
   def format_date(date)
-    if date.is_a?(DateTime)
+    if (date.is_a?(DateTime) || date.is_a?(Time))
        date.strftime("%Y-%m-%d %H:%M")
     end
   end

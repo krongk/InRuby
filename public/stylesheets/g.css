@@ -22,19 +22,8 @@ body, table, input, textarea, button, select{ font-family:Tahoma,'simsun'; font-
 body{background:#FFFFFF; color:#333333; font-size:12px; line-height:180%; font-family:Tahoma;}
 
 /*logo*/
-.logo{
-	height:70px;
-	width:950px;
-	margin:0 auto;
-	background-image: url(bg_integrated.png);
-	background-repeat: no-repeat;
-	background-position: left top;
-}
-.service_list{
-	color: #00F;
-	list-style-type: square;
-	list-style-position: inside;
-}
+.logo{height:70px;width:950px;margin:0 auto;background-image: url(bg_integrated.png);background-repeat: no-repeat;background-position: left top;}
+.service_list{color: #00F;list-style-type: square;list-style-position: inside;}
 .logo{ position:relative;}
 .logo a.a_logo{display:block; width:157px; height:70px; text-indent:-9999px; text-decoration:none; background:url(bg_integrated.png) -792px -137px;}
 #sub-nav{ position:absolute; right:0; top:10px;}
@@ -46,8 +35,8 @@ body{background:#FFFFFF; color:#333333; font-size:12px; line-height:180%; font-f
 .mainwebnav a{color:#FFFFFF; text-decoration:none; text-align:center;height:35px; line-height:35px; display:block;white-space: nowrap; width:89px; margin:0 auto; text-align:center;}
 .mainwebnav a:hover{text-decoration:underline;}
 .mainwebnav a:visited{ color:#ffffff; text-decoration:none;}
-/*#page_index .navind,#page_download .navdownload,#page_function .navfunction{background:url(bg_integrated.png) left -107px; color:#fffcb5; cursor:default; color:#333333; cursor:default;}
-*/#page_index .navind:hover,#page_download .navdownload:hover,#page_function .navfunction:hover{text-decoration:none;}
+#page_index .navind,#page_download .navdownload,#page_function .navfunction{background:url(bg_integrated.png) left -107px; color:#fffcb5; cursor:default; color:#333333; cursor:default;}
+#page_index .navind:hover,#page_download .navdownload:hover,#page_function .navfunction:hover{text-decoration:none;}
 
 .submenu{float:right; margin:-27px 20px 0 0;font-size:12px; font-weight:normal;}
 .submenu li{float:left;}

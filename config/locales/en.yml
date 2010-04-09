@@ -8,6 +8,7 @@ en:
     about: "About"
     signup: "signup"
     login: "login"
+    logout: "logout"
     blog: "Blog"
     help: "User Guide"
     sitemap: "Sitemap"

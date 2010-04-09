@@ -46,6 +46,10 @@ ActionController::Routing::Routes.draw do |map|
   map.help '/help', :controller=>'welcome',:action=>'help'
   map.help '/contact', :controller=>'welcome',:action=>'contact'
   map.g '/g',:controller=>'gnotes',:action=>'g'
+  #admin map
+  map.admin '/admin',:controller=>'admin',:action=>'index'
+  map.admin '/admin/user',:controller=>'admin',:action=>'user'
+
   # Install the default routes as the lowest priority.
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing or commenting them out if you're using named routes and resources.

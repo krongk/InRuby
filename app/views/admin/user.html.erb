@@ -1,0 +1,44 @@
+<style type="text/css">
+<!--
+.tab {
+	background-color: #E1E8FF;
+}
+.tr {
+	border-top-width: 1px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #9CC;
+	border-bottom-color: #69C;
+        padding: 10px;
+}
+.td1 {
+	background-color: #CF9;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #9CC;
+}
+-->
+</style>
+<h1>用户列表</h1>
+<p>显示最新注册用户列表. <a href="/admin">返回管理菜单</a><br/></p>
+<p>总注册用户: <%=@users.length%></p>
+<table border="1" width="100%"  cellpadding="20" cellspacing="2" class="tab">
+  <% @users.each do |user| %>
+  <tr>
+    <td><b><%=user.login%></b></td>
+    <td>邮件:<%=user.email%></td>
+    <td>电话:<%=user.phone%></td>
+     <td>语言:<%=user.language%></td>
+    <td><%= format_date(user.created_at)%></td>
+    <td><%= format_date(user.updated_at)%></td>
+    <td>
+    <%=link_to "发送邮件",:controller=>'emailer',:action=>'sendmail',:recipient=>user.email%>
+    </td>
+  </tr>
+  <tr class="tr">
+    <td colspan="4" width="400"><%=user.message%></td><td colspan="3" class="td1"><%=user.bg_message%></td>
+  </tr>
+  <tr><td bgcolor="#fff" colspan="7">&nbsp;</td></tr>
+  <% end %>
+</table>

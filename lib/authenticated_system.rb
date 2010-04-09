@@ -6,6 +6,10 @@ module AuthenticatedSystem
       !!current_user
     end
 
+     def admin_logged_in?
+      !!current_user && (@current_user.login =="kenrome" || @current_user.login=="admin")
+    end
+
     # Accesses the current user from the session. 
     # Future calls avoid the database because nil is not equal to false.
     def current_user
@@ -33,7 +37,9 @@ module AuthenticatedSystem
     def authorized?
       logged_in?
     end
-
+    def admin_authorized?
+      admin_logged_in?
+    end
     # Filter method to enforce a login requirement.
     #
     # To require logins for all actions, use this in your controllers:
@@ -52,6 +58,9 @@ module AuthenticatedSystem
       authorized? || access_denied
     end
 
+    def admin_required
+       admin_authorized? || access_denied
+    end
     # Redirect as appropriate when an access request fails.
     #
     # The default action is to redirect to the login screen.
