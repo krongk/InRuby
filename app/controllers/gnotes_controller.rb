@@ -6,7 +6,7 @@ class GnotesController < ApplicationController
     @title ="title"
     page = params[:page]
     page = 1 if params[:page].blank?
-    @gnotes = Gnote.paginate :page=>page || 1, :per_page=>10, :order=>'created_at desc'
+    @gnotes = Gnote.paginate :page=>page || 1, :per_page=>10,:order=>"created_at desc"
     session[:page] = page
     
     respond_to do |format|
