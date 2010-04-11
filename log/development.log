@@ -27700,3 +27700,845 @@ Rendered layouts/_advantage (1.0ms)
 Rendered layouts/_top (36.0ms)
 Rendered layouts/_footer (0.0ms)
 Completed in 65ms (View: 57, DB: 7) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:00:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (3.0ms)
+Rendered layouts/_top (16.0ms)
+Rendered layouts/_footer (16.0ms)
+Completed in 3059ms (View: 305, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-10 22:00:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 65ms (View: 61, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:00:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (2.0ms)
+Rendered layouts/_top (5.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 46ms (View: 41, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-10 22:01:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 87ms (View: 84, DB: 3) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-10 22:01:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 55ms (View: 50, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:03:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:03:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 33ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:04:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 30, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:05:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 36ms (View: 33, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:06:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (5.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:09:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 122ms (View: 119, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:09:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 38ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:09:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 38ms (View: 35, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:10:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (5.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 41ms (View: 38, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:10:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 40ms (View: 36, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:13:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 36ms (View: 32, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:13:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 36ms (View: 32, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:15:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 34ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:34:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (6.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 112ms (View: 110, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:35:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 36ms (View: 32, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:41:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (2.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 35ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:42:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 34ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:43:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 34ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:43:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 42ms (View: 38, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:45:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 33ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:48:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (5.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 36ms (View: 32, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-10 22:48:30) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 61ms (View: 58, DB: 0) | 200 OK [http://localhost/signup]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-10 22:48:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-10 22:51:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 29, DB: 2) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:51:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (5.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 41ms (View: 37, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:52:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 63ms (View: 57, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:52:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 45ms (View: 40, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-10 22:52:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 42ms (View: 38, DB: 2) | 200 OK [http://localhost/service]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-10 22:52:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (5.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 45ms (View: 41, DB: 1) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing GnotesController#index (for 127.0.0.1 at 2010-04-10 22:52:53) [GET]
+  [4;36;1mGnote Load (341.0ms)[0m   [0;1mSELECT * FROM `gnotes` ORDER BY created_at desc LIMIT 0, 10[0m
+  [4;35;1mGnote Columns (60.0ms)[0m   [0mSHOW FIELDS FROM `gnotes`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `gnotes` [0m
+Rendering template within layouts/application
+Rendering gnotes/index
+Rendered layouts/_search (2.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 518ms (View: 93, DB: 402) | 200 OK [http://localhost/gnotes]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 22:52:55) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (2.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 51ms (View: 47, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:09:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:10:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 34ms (View: 31, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:11:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 33ms (View: 30, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-10 23:12:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 33, DB: 1) | 200 OK [http://localhost/service]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-10 23:12:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 38ms (View: 35, DB: 0) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:12:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 37ms (View: 34, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:20:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 38ms (View: 35, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:26:06) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (0.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 34ms (View: 31, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:26:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (4.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 49ms (View: 45, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:27:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 33ms (View: 30, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:28:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 36ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:30:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 35ms (View: 32, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:31:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 112ms (View: 108, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#service (for 127.0.0.1 at 2010-04-10 23:31:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/service
+Rendered layouts/_advantage (2.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 42ms (View: 36, DB: 2) | 200 OK [http://localhost/service]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#about (for 127.0.0.1 at 2010-04-10 23:31:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/about
+Rendered layouts/_advantage (3.0ms)
+Rendered layouts/_top (5.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 46ms (View: 41, DB: 0) | 200 OK [http://localhost/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:31:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 41ms (View: 38, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:33:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 33ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:34:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (8.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 46ms (View: 43, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:36:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (2.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 35ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:36:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 42ms (View: 39, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:37:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 36ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:37:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 42ms (View: 39, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:37:35) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 42ms (View: 38, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:37:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (2.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 45ms (View: 39, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:39:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 56ms (View: 39, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-04-10 23:42:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered layouts/_advantage (1.0ms)
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-10 23:42:15) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (5.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 45ms (View: 42, DB: 1) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-10 23:43:55) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 121ms (View: 118, DB: 0) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-10 23:44:28) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 45ms (View: 42, DB: 0) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-10 23:45:35) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-10 23:45:37) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 41ms (View: 38, DB: 0) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-10 23:48:26) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 45ms (View: 41, DB: 0) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-04-10 23:48:48) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 32ms (View: 29, DB: 0) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-10 23:48:51) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 53ms (View: 49, DB: 1) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-10 23:49:23) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 33, DB: 0) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-10 23:53:39) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (6.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 43ms (View: 40, DB: 0) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-10 23:53:59) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (4.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 40ms (View: 37, DB: 0) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 23:53:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated_trans.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-10 23:54:00) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_top (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 36ms (View: 32, DB: 0) | 200 OK [http://localhost/signup]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-10 23:54:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bg_integrated_trans.png" with {:method=>:get}):
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby18/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby18/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
