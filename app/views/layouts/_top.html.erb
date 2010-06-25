@@ -3,7 +3,6 @@
   <DIV id="sub-nav">
     <% form_tag '' do %>
       <%= t "banner.choose" %>：<%= select_tag("locale", options_for_select(LOCALES_AVAILABLE, I18n.locale), { :index => nil, :onchange => 'this.form.submit()'}) %>
-
     <% end %>
     <A href="/help" target="_blank"><%=  t "menu.help"%></A> | <A href="/sitemap"><%= t "menu.sitemap" %></A> | <A href="/contact"><%= t "menu.contact" %></A>
   </DIV>
