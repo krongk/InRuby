@@ -1,12 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <META name="author" content="kenrome">
   <META name="keywords" content="ruby,ruby on rails,web,web design,web development,web app,cloud computing">
-  <META name="description" content="红宝石网络,专业网站建设,网站开发,云端网站服务专家">
+  <META name="description" content="ruby, ruby on rails, 红宝石网络,专业网站建设,网站开发,云端网站服务专家">
    <title><%= yield(:title) || "inruby"  %> </title>
   <%= stylesheet_link_tag 'globe','g','scaffold' %>
   <%= stylesheet_link_tag 'gnote' if controller.controller_name =='gnotes'%>
@@ -31,8 +30,9 @@
 
 <%= yield %>
 
+<div id="contact_us" style="margin:0 auto;text-algn:center;background-color:#8B0000;">
+<a href='/contact'><img src='/images/contact_us.jpg' width='100px'/></a>
+</div>
 <%= render :partial=>'layouts/footer' %>
-
-<SCRIPT LANGUAGE="JavaScript" src="http://float2006.tq.cn/floatcard?adminid=8970949&sort=0"></SCRIPT>
 </body>
 </html>
