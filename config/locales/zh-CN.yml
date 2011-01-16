@@ -86,9 +86,8 @@
     t6: "联系方式"
     us: "我们在中国和美国都有联络，在中国的合作伙伴成都设有办事处，在美国的合作伙伴洛杉矶设有办事处。<br/>
     注：我们会根据项目配备团队人员，以及是否是全职或是自由职业/兼职工作，我们同样可以远程办公（在家工作）或在中国成都以及美国洛杉矶城市工作。"
-    addr: "<h2>四川成都办公室</h2><p>科华南路，美丽南庭，#3-1128</p><p>四川，成都 610000</p>
-           <h2>Los Angeles Office</h2><p>800 S. Los Angeles St., Suite 121B</p><p>Los Angeles, CA 90014</p>
-           <br/><h2>联系电话:</h2><h2> &nbsp;&nbsp;&nbsp;&nbsp;+86 15928661802</h2><h2>&nbsp;&nbsp;&nbsp;&nbsp;+86 13981853337</h2>"
+    addr: "<h2>四川成都办公室</h2><p>四川大学望江</p><p>四川，成都 610000</p>
+           <h2>Los Angeles Office</h2><p>800 S. Los Angeles St., Suite 121B</p><p>Los Angeles, CA 90014</p>"
   form:
     sign_up: "注册"
     login: "登录"
